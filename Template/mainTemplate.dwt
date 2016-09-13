@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Frias</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../Styles/mainstyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+        <div id="header">
+
+        <div id="searchbox"><input type="search"></div>
+        <a href=".."><p>Register</p></a>
+        <a href=".."><p>Log In</p></a>
+        </div>
+        <nav id="mainnav">
+            <ul>
+              <!-- TemplateBeginEditable name="Navigation" -->
+                <li><a href="file:///C|/Users/jasson/Desktop/Assignment2/site/home.html">Home</a></li>
+                <li><a href="..">Services</a></li>
+                <li><a href="file:///C|/Users/jasson/Desktop/Assignment2/site/product.html">Products</a></li>
+                <img src="file:///C|/Users/jasson/Desktop/Assignment2/Images/logo2.png" width="146" height="110" alt=""/>
+
+               
+                <li><b href="..">About Us</b></li>
+                <li><b href="..">Contact Us</b>height:</li>
+              <!-- TemplateEndEditable -->
+            </ul>
+        </nav>
+  	<!-- TemplateBeginEditable name="Content" -->
+  	<div id="content">CONTENT HERE</div>
+  	<!-- TemplateEndEditable -->
+  	<div id="footer"><img class="footer"src="../Images/ALL accessories.png"alt=""/> </div>
+
+</div> 
+</body>
+</html>
