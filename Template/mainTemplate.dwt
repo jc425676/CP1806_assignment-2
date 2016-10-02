@@ -21,20 +21,20 @@
         <nav id="mainnav">
             <ul>
               <!-- TemplateBeginEditable name="Navigation" -->
-                <li><a href="file:///C|/Users/jasson/Desktop/Assignment2/site/home.html">Home</a></li>
-                <li><a href="..">Services</a></li>
-                <li><a href="file:///C|/Users/jasson/Desktop/Assignment2/site/product.html">Products</a></li>
-                <img src="file:///C|/Users/jasson/Desktop/Assignment2/Images/logo2.png" width="146" height="110" alt=""/>
-
-               
-                <li><b href="..">About Us</b></li>
-                <li><b href="..">Contact Us</b>height:</li>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="product.html">Products</a></li>
+                <img src="../Images/logo2.png" width="146" height="100" alt=""/>
+<li><b href="..">About Us</b></li>
+                <li><b href="contactus.html">Contact Us</b></li>
               <!-- TemplateEndEditable -->
             </ul>
         </nav>
   	<!-- TemplateBeginEditable name="Content" -->
   	<div id="content">CONTENT HERE</div>
-  	<!-- TemplateEndEditable -->
+  	
+	
+	<!-- TemplateEndEditable -->
   	<div id="footer"><img class="footer"src="../Images/ALL accessories.png"alt=""/> </div>
 
 </div> 

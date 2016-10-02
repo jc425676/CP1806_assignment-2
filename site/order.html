@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Frias</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link href="../Styles/mainstyle.css" rel="stylesheet" type="text/css">
+<link href="../Styles/mainstyles.css" rel="stylesheet" type="text/css">
+<script src="scripts.js"></script>
+</head>
+
+<body>
+
+        <div id="header">
+
+        <div id="searchbox"><input type="search"></div>
+        <a href="registration.html"><p>Register</p></a>
+        <a href="LogIn.html"><p>Log In</p></a>
+        </div>
+        <nav id="mainnav">
+            <ul>
+              <!-- TemplateBeginEditable name="Navigation" -->
+                <li><a href="home.html"><h4>Home</h4></a></li>
+                <li><a href="services.html"><h4>Services</h4></a></li>
+                <li><a href="product.html"><h4>Products</h4></a><a><logo href=".."><img src="../Images/logo2.png" width="79" height="64" alt=""/></logo></a></li>
+                <li><a href="aboutus.html"><h4>About Us</h4></a></li>
+                <li><a href="contactus.html"><h4>Contact Us</h4></a></li>
+              <!-- TemplateEndEditable -->
+            </ul>
+        </nav>
+  	<!-- TemplateBeginEditable name="Content" -->
+  	<div id="content">
+    <form action="" method="post" name="mainForm" id="mainForm" onsubmit="return checkForm();">
+        <p>
+            <label for="name">Your Name: </label>
+            <input type="text" name="name" id="name" size="40" autofocus onKeyUp="nameEntered(this);"/>
+        </p>
+<br>
+        <label for="login">
+           Your Email Address:</label>
+        <input type="text" id="login" name="login" size="40" value="username" onselect="clearField(this)"/>
+        <br>
+        <label for="email">Shipping Address:</label>
+        <input type="text" name="email" id="email" size="40" style="color:#000000" onFocus="changeStyle('email')"
+               onBlur="changeStyle2('email')"/>
+        <br/>
+        <label for="phone">Phone Number</label>
+        <input type="text" name="phone" id="phone" size="40" style="color:#000000"
+               onKeyUp="setColourBasedOnLength('phone', 8)"/>
+        <br/>
+        <label for="HowOftenVisit">Product</label>
+        <select name="HowOftenVisit" id="HowOftenVisit">
+            <option value="Mick & Bianca">Mick & Bianca</option>
+            <option value="Frida & Diego ">Frida & Diego </option>
+            <option value="Kurt & Courtney">Kurt & Courtney</option>
+            <option value="Dali & Gali">Dali & Gali</option>
+            <option value="Jimi:janis ">Jimi:janis </option>
+            <option value="Boy Beach Shorts ">Boy Beach Shorts </option>
+            <option value="Boy Skateboard Vest ">Boy Skateboard Vest </option>
+            <option value="Girl Feather Dress ">Girl Feather Dress </option>
+            <option value="Girl Strawberry Vest ">Girl Strawberry Vest </option>
+            <option value="Boys Short ">Boys Short </option>
+            <option value="Boys Beach Vest  ">Boys Beach Vest  </option>
+            <option value="Girls Beach Vest  ">Girls Beach Vest  </option>
+            
+        </select>
+        <br/>
+        
+        <br>
+        <label>Payment Method <br>
+            (<a href="#" onclick="clearRating(); return false">click here to clear selection</a>) </label>
+        <fieldset>
+            <input type="radio" name="siterating" id="sitepoor" value="Poor"
+                   onclick="checkSiteRating(); alert('Please make sure you write comments below about why the site is poor.'); document.mainForm.comments.focus()"/>
+            <label for="cc">Credit Card</label>
+            
+            <input type="radio" name="siterating" id="siteverygood" value="VeryGood" onclick="checkSiteRating()"/>
+            <label for="Cash">Cash</label>
+        </fieldset>
+        <br>
+        <label for="comments">Additional Request:<br>
+            <span id="characters"></span>
+        </label>
+        <textarea name="comments" cols="50" rows="4" id="comments" onKeyUp="updateCharacters(100)"></textarea>
+        <br/>
+
+        <div id="submission">
+            <input type="reset" value="Reset" name="Reset" id="Reset" onclick="return resetForm()" />
+            or
+            <input type="submit" value="Submit"/>
+        </div>
+        <div><span id="message"></span></div>
+    </form>
+  	<!-- TemplateEndEditable -->
+  	<div id="footer"><img class="footer"src="../Images/ALL accessories.png"alt=""/> 
+ <a
+            href="#header" target="_self">To Top</a>
+    </div>
+ 
+</body>
+</html>
