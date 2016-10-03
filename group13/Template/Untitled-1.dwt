@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Frias</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div id="background">
+  <div id="header">
+        <div id="banner">
+        <h1></h1>
+        <a href="../Signup.html"><p class="register">Sign up</p></a></div>
+        <nav id="mainnav">
+            <ul>
+              <!-- TemplateBeginEditable name="Navigation" -->
+                <li><a href="..">Home</a></li>
+                <li><a href="..">About</a></li>
+                <li><a href="..">Services</a></li>
+                <li><a href="..">Gallery</a></li>
+                <li><a href="..">Products</a></li>
+                <li><a href="..">Contacts</a></li>
+              <!-- TemplateEndEditable -->
+            </ul>
+        </nav>
+  	</div>
+  	<!-- TemplateBeginEditable name="Content" -->
+  	<div id="content"></div>
+  	<!-- TemplateEndEditable -->
+  	<div id="footer">
+    &copy; Copyright Frias
+    </div>
+
+</div> 
+</body>
+</html>
